@@ -1,0 +1,60 @@
+.figtree {
+  font-family: "Figtree", sans-serif;
+}
+
+.hero {
+  background-image: url("images/Background\ Image.jpg");
+  background-size: cover;
+}
+
+.search-form {
+  position: absolute;
+  width: 50%;
+  transform: translateX(-50%);
+}
+
+.figtree {
+  font-family: "Figtree", sans-serif;
+}
+
+.hero {
+  background-image: url("images/Background\ Image.jpg");
+  background-size: cover;
+}
+
+.search-form {
+  position: absolute;
+  width: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  animation: fadeInUp 0.8s ease-in-out forwards; /* Adjust duration and easing as needed */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0; /* প্রথমে অদৃশ্য */
+  animation: fade-in 0.5s forwards; /* এনিমেশন */
+}
